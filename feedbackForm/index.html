@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<link rel="stylesheet" type="text/css" href="form.css" />
+</head> 
+
+<body> 
+	<h1>Abhyaz</h1> 
+	<h3>Feedback Form</h3> 
+	<div class="form-box">  
+		<form> 
+			<label for="uname"> 
+				Name 
+			</label> 
+			<input type="text" required> 
+
+			<label for="email">  
+				Email Address 
+			</label> 
+			<input type="email" required>
+			
+			<label for="phone">
+				Phone No 
+			</label> 
+			<input type="tel" id="phone"
+				name="phone" required> 
+
+			<label> 
+				Do you satisfy with our service? 
+			</label> 
+			<div class="radio-group"> 
+				<input type="radio" id="yes"
+					name="satisfy" value="yes" checked> 
+				<label for="yes">Yes</label> 
+
+				<input type="radio" id="no"
+					name="satisfy" value="no"> 
+				<label for="no">No</label> 
+			</div>
+			
+			<label> 
+				What did you learn from this Internship? 
+			</label> 
+			<input type="text" required> 
+		
+		
+			<label> 
+				Do you want to suggest Abhyaz Internship to your family or friends?
+			</label> 
+			<div class="radio-grp"> 
+				<input type="radio" id="y"
+				 name="ok" value="yes" checked> 
+				<label for="yes">Yes</label> 
+
+				<input type="radio" id="n" name="ok" value="no"> 
+				<label for="no">No</label> 
+			</div>
+
+			<label for="message"> 
+				Write your Suggestions: 
+			</label> 
+			<textarea id="msg" name="msg"
+					rows="4" cols="10" required> 
+			</textarea> 
+			<button type="submit"> 
+				Submit 
+			</button> 
+		</form> 
+	</div> 
+</body> 
+</html>
+               
